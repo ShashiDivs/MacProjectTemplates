@@ -1,0 +1,12 @@
+training_pipeline_config:
+  pipeline: visa
+  artifact_dir: artifact
+
+
+data_ingestion_config:
+  dataset_download_url: "url"
+  raw_data_dir: raw_data
+  ingested_dir: ingested_data
+  ingested_train_dir: train
+  ingested_train_dir: test
+  
